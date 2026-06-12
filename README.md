@@ -1,11 +1,10 @@
 # IceVault Python SDK
 
-[![CI](https://github.com/your-org/ice-vault-python-client/actions/workflows/ci.yml/badge.svg)](https://github.com/your-org/ice-vault-python-client/actions/workflows/ci.yml)
 [![PyPI version](https://img.shields.io/pypi/v/icevault.svg)](https://pypi.org/project/icevault/)
 [![Python versions](https://img.shields.io/pypi/pyversions/icevault.svg)](https://pypi.org/project/icevault/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Official Python client library for the [IceVault](https://icevault.example) REST API.
+Official Python client library for the [IceVault](https://icevault.space) REST API.
 
 ## Features
 
@@ -56,13 +55,18 @@ async def main() -> None:
 asyncio.run(main())
 ```
 
+## Where to get API key?
+1. create account in https://icevault.space
+2. go to [settings](https://icevault.space/users/settings/api-keys/)
+3. click "generate new key"
+
 ## Development
 
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/your-org/ice-vault-python-client.git
-cd ice-vault-python-client
+git clone https://github.com/adminIceVault/icevault-python-client.git
+cd icevault-python-client
 poetry install --with dev
 ```
 
